@@ -1,0 +1,27 @@
+{
+	"name"       : "wp_site/wp_site_plugin",
+	"description": "WordPress custom post type plugin for code snippets",
+	"homepage"   : "https://github.com/dreboard/wp_site_plugin/",
+	"type"       : "wordpress-plugin",
+	"license"    : "GPL-2.0+",
+	"authors"    : [
+		{
+			"name"    : "Andre Board",
+			"homepage": "https://github.com/dreboard/"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/dreboard/wp_site_plugin/issues",
+		"forum": "https://github.com/dreboard",
+		"source": "https://github.com/dreboard/wp_site_plugin"
+	},
+	"require": {
+		"composer/installers": "~1.0"
+	},
+	"require-dev" : {
+		"phpunit/phpunit": ">=3.7@stable"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
